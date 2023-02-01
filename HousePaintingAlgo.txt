@@ -1,0 +1,18 @@
+HousePainting Algorithm Design by Zaccery Tarver
+
+Variables in steps 1 through 10 are doubles, declared and assigned values based on user input. 
+1. Output a prompt to input the cost per square foot, cperSqft.
+2. Output a prompt to input the length, l.
+3. Output a prompt to input the width, w.
+4. Output a prompt to input the full height, h.
+5. Output a prompt to input the number of windows, numWind.
+6. Output a prompt to input the length of a window, winLen.
+7. Output a prompt to input the width of a window, winWid.
+8. Output a prompt to input the number of doors, numDoor.
+9. Output a prompt to input the length of a door, doorLen.
+10. Output a prompt to input the width of a door, doorWid.
+11. Calculate the total paintable surface area, a double variable paintSur, with the following formula:
+	- 2(lw + lw + 0.5*l(h-w)) - (numWind*winLen*winWid + numDoor*doorLen*doorWid)
+	-Store the result in paintSur
+12. Output the value of paintSur.
+13. Output the total cost by multiplying paintSur*cperSqft.
