@@ -1,0 +1,3 @@
+The objective of the game is to get four of the same color in a row. Players
+alternate turns until this condition is met. If the condition is never met, then 
+the game ends in a tie. Exit the play window and run GameClient again to play again.
